@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Hello, world">
+    <meta name="author" content="Abdelaziz">
+    <meta name="description" content="This is a basic HTML page with the title 'Hello, world'.">
+    <title>"Registration Form"</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="wolf.jpeg" type="image/jpeg">
+</head>
+<body>
+    <header id="HeaderForm"> Registration Forms </header>
+     
+    <main id="mainForm">
+      <form id="RegisterForm" class="RegisterFormClass">
+  
+         <section id="sec1" class="section"> 
+            <legend style="color: darkblue;">Personal Information</legend>
+        
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname" placeholder="Name"> <br>
+        
+            <label for="Pass">Password:</label><br> 
+            <input type="password" name="Pass"  placeholder="Password"> <br>
+            
+            <label for="ConfirmPass">Confirm Password:</label><br> 
+            <input type="password" name="ConfirmPass" placeholder="Confirm Password"> <br>
+        
+          <label for="tele">Telephone :</label><br> 
+          <input type="tel" name="tele" placeholder="+20"> <br>
+         
+          <label for="email">Email:</label><br> 
+          <input type="email" name="email" placeholder="Zezoo@Example"> <br>
+         
+          </section>
+
+          <section id="sec2"class="section" >
+           <legend style="color: darkblue;">User Information</legend>
+
+          <label for="radio">Gender :</label> <br> 
+          <label for="radio">Male:</label>
+          <input type="radio" name="radio" placeholder="Male"> <br>
+         
+          <label for="radio">Female:</label>
+          <input type="radio" name="radio" placeholder="Female"> <br> 
+        
+          
+         
+          <label for="DOB">Date Of Birth:</label><br>
+          <input type="text" name="DOB" placeholder="Date Of Birth"> <br>
+         
+          </section>
+
+          <section id="sec3" class="section" >
+            <legend style="color: darkblue;">Personal Choices</legend>
+
+          <label for="radio2">Do you like this lab:</label><br>
+          <label for="radio2">Yes:</label> <br> 
+          <input type="radio" name="radio2" placeholder="Yes"> <br>
+          <label for="radio2">Yes again :) </label> <br> 
+          <input type="radio" name="radio2" placeholder="Yes"> <br>
+              
+          <label for="range">Rate our Session:</label> <br> 
+          <input type="range" name="range" min="1" max="100" value="50"> <br>
+
+          </section>
+        
+
+          <section id="sec4" class="section" >
+            <legend style="color: darkblue;">Color Choices</legend>
+
+          <label for="favColor">Favorite Color:</label>  <br>
+          <select name="favColor" id="favColor">
+          <option value="Red">Red</option>
+          <option value="Orange">Orange</option>
+          <option value="Green">Green</option>
+          </select> <br>
+        
+          </section>
+         
+
+             <br>
+             <section id="sec5" class="section" >
+                <fieldset>
+                  <legend  style="color: darkblue;">FeedBack</legend>
+
+              <label for="feedback">FeedBack: </label><br>
+              <textarea id="feedback" name="feedback" placeholder="Type your feedback here .." rows="4" required></textarea>
+              <br>
+
+
+              <label for="rating">Rate our session:</label><br>
+              <input type="range" id="rating" name="rating" min="1" max="10" value="7" step="1">
+              <br>
+
+              <label for="yes">Do you like this lab?</label><br>
+              <label for="yes">
+              <input type="radio" id="yes" name="lab" value="yes" checked> Yes
+              </label>
+              <label for="no">
+              <input type="radio" id="no" name="lab" value="no"> No
+              </label>
+              <br>
+
+              <label for="resume">Upload Resume:</label><br>
+              <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx, .txt">
+              <br>
+           </fieldset>
+          </section>
+  
+  
+          <section id="sec6" class="section" >
+            <legend style="color: brown;">Language & Opinions </legend>
+
+            <label for="FavLang">Select your fav language:</label><br>
+            <input type="checkbox" id="java" name="java" value="java" > 
+            <label for="vehicle1"> Java</label><br>
+            <input type="checkbox" id="c++" name="c++" value="c++" > 
+            <label for="vehicle1"> C++</label><br>
+            <input type="checkbox" id="python" name="python" value="python" > 
+            <label for="vehicle1"> Python</label><br>
+            <br>
+          
+           <input type="hidden" name="form-id" value="323323">
+           <br>
+             
+         
+         </section>
+        
+
+         <article id="article">
+            <label for="Comments">Comments : </label><br>
+            <textarea id="Comments" name="Comments" placeholder="Type your Comments here .." rows="4" ></textarea>
+
+            <input type="Submit" id = "Submitbttncomment" value="Submint">
+         </article>
+
+         <section id="sec7" class="section" >
+            <input type="Submit" id = "Submitbttn" value="Register">
+         </section>
+
+
+         <footer>
+            <p><a href="/terms-and-conditions">Terms and Conditions</a></p>
+         </footer>
+       
+         <hr>
+        
+        </form>
+
+           
+   </main>
+    
+
+</body>
+</html>
