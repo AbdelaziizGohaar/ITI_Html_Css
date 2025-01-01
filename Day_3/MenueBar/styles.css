@@ -1,0 +1,31 @@
+.Ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.Li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+button{
+  color: rgb(2, 0, 12);
+  background-color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+button:hover {
+  background-color: blue; 
+  color: white;
+  border-radius: 5px;
+}
+h1,h2,h3{
+  color: blueviolet;
+  text-align: center;
+}
+
