@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fd;
+  color: #333;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.sidebar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.sidebar p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sidebar .section {
+  margin-bottom: 20px;
+}
+
+.sidebar .section h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.sidebar .section ul {
+  list-style: none;
+}
+
+.sidebar .section ul li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.main-content h1 span {
+  color: #ff9900;
+}
+
+.main-content p {
+  margin: 20px 0;
+  color: #666;
+  line-height: 1.6;
+}
+/*
+.main-content pre {
+  margin: 20px 0;
+  color: #666;
+  line-height: 1.6;
+}
+*/
+.main-content .services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.main-content .service {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content .service h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.main-content .service p {
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #e68a00;
+}
+
+.Ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ /* background-color: #333; */
+}
+
+.Li {
+  display: inline;
+  float: left;
+  border-right: 1px none white;
+  font-size: x-large;
+  padding: 2px;
+}
+#linkedin{
+  color: blue;
+}
+#githup{
+  color: black;
+}
+#edu{
+
+  padding-top:30px ;
+  padding-bottom:30px ;
+
+}
+
+#work{
+  padding-top:30px ;
+  padding-bottom:30px ;
+
+}
