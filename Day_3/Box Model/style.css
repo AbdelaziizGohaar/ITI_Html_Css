@@ -1,0 +1,12 @@
+.box {
+    padding: 15px;
+    margin: 10px;
+    background-color: chocolate;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+ 
